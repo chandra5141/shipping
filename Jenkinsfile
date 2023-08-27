@@ -1,3 +1,4 @@
 @Library('roboshop') _
-
-ci ()
+env.component = "shipping"
+env.app_lang = "maven"
+ci()
